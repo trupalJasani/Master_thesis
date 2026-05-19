@@ -3,5 +3,5 @@
 
 void app_main(void)
 {
-    printf("Hello from agrinode");
+    printf("Hello from agrinode ....");
 }   
