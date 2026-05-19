@@ -3,7 +3,7 @@
 An ultra-low-power ESP32-C3 edge node designed for crop disease forecasting over LoRa P2P.
 
 
-## 📌 Project Overview
+## 📌Overview
 This repository contains the firmware for an ultra-low-power agricultural edge computing node, developed as part of a Master's thesis. The primary objective is to collect data and compute the **Smith Period** (a predictive index for crop disease) directly at the edge, reducing bandwidth by transmitting only the calculated forecasting index over a LoRa P2P network.
 
 ## ⚙️ Hardware Stack
