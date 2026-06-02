@@ -102,7 +102,7 @@ int32_t SHT31_GetTempHum(SHT31_Object_t *pObj, float *pTemp, float *pHum) {
     uint8_t cmd[2] = {0x24, 0x00};
     if (pObj->IO.Write(0x44, cmd, 2) != SHT31_OK) return SHT31_ERROR;
 
-    /* 2. Wait for measurement to complete (15ms max per datasheet) */
+    /* 2. Wait for measurement to complete */
     pObj->IO.Delay(15);
 
     /* 3. Read the 6 bytes of response data */
